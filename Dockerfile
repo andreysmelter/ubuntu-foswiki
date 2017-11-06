@@ -1,5 +1,5 @@
 # To build this docker image run the following command from directory containing Dockerfile:
-# docker build -t ubuntu-fw .
+# docker build -t ubuntu-foswiki .
 
 FROM ubuntu:16.04
 
