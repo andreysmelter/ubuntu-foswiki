@@ -1,5 +1,5 @@
 # To build this docker image run the following command from directory containing Dockerfile:
-# docker build -t ubuntu-foswiki .
+#     docker build -t ubuntu-foswiki .
 
 FROM ubuntu:16.04
 
@@ -32,5 +32,9 @@ CMD ["apachectl", "-D", "FOREGROUND"]
 EXPOSE 80
 
 # To run ubuntu-foswiki image execute the following command:
-# docker run -t -p 4000:80 ubuntu-foswiki
-# and then go to http://localhost:4000/foswiki
+# if pulled from docker hub:
+#     docker run -t -p 4000:80 andreysmelter/ubuntu-foswiki
+# if built locally from Dockerfile:
+#     docker run -t -p 4000:80 ubuntu-foswiki
+# and then go to the following address:
+#     http://localhost:4000/foswiki
