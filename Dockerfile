@@ -24,7 +24,6 @@ RUN ln -s /etc/apache2/conf-available/foswiki.conf /etc/apache2/conf-enabled/fos
 # Configure apache server
 RUN a2enmod rewrite
 RUN a2enmod cgi
-#RUN service apache2 restart
 
 # Start apache server when you launch built image
 CMD ["apachectl", "-D", "FOREGROUND"]
