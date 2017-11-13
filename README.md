@@ -7,7 +7,8 @@
 This `Dockerfile` contains instructions how to build image with Foswiki 2.1.4 based on Ubuntu 16.04 (LTS).
 
 
-**Links:**
+## Links:
+
    * [@GitHub](https://github.com/andreysmelter/ubuntu-foswiki)
    * [@DockerHub](https://hub.docker.com/r/andreysmelter/ubuntu-foswiki/)
 
@@ -49,7 +50,7 @@ set `admin` password, register `user`, etc.
 
 Visit Foswiki Documentation to learn more:
    * [Documentation](https://foswiki.org/System/WebHome)
-   
+
 Slide show presentation for beginners:
    * [Presentation](https://foswiki.org/System/BeginnersStartHere?slideshow=on;cover=slideshow#GoSlide1)
 
