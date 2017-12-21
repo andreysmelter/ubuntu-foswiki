@@ -31,10 +31,14 @@ CMD ["apachectl", "-D", "FOREGROUND"]
 # Make port 80 available to the world outside this container
 EXPOSE 80
 
-# To run ubuntu-foswiki image execute the following command:
-# if pulled from docker hub:
-#     docker run -t -p 4000:80 andreysmelter/ubuntu-foswiki
-# if built locally from Dockerfile:
-#     docker run -t -p 4000:80 ubuntu-foswiki
-# and then go to the following address:
-#     http://localhost:4000/foswiki
+#1. Install `docker`:
+#   * Follow instructions to install docker for your system: https://docs.docker.com/engine/installation
+#
+#2. Install `ubuntu-foswiki`:
+#   * `pull` built image from the docker hub:
+#   # docker pull andreysmelter/ubuntu-foswiki
+#   # docker tag andreysmelter/ubuntu-foswiki:latest ubuntu-foswiki:latest  # retag docker image
+#   # docker rmi andreysmelter/ubuntu-foswiki                # remove after you have retagged it
+#
+#   * or `build` an image using `Dockerfile` at the root of this repo by running `docker build` from directory containing `Dockerfile`:
+#   # docker build -t ubuntu-foswiki .
