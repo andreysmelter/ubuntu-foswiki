@@ -31,14 +31,14 @@ CMD ["apachectl", "-D", "FOREGROUND"]
 # Make port 80 available to the world outside this container
 EXPOSE 80
 
-#1. Install `docker`:
-#   * Follow instructions to install docker for your system: https://docs.docker.com/engine/installation
+# 1. Install `docker`:
+#    * Follow instructions to install docker for your system: https://docs.docker.com/engine/installation
 #
-#2. Install `ubuntu-foswiki`:
-#   * `pull` built image from the docker hub:
-#   # docker pull andreysmelter/ubuntu-foswiki
-#   # docker tag andreysmelter/ubuntu-foswiki:latest ubuntu-foswiki:latest  # retag docker image
-#   # docker rmi andreysmelter/ubuntu-foswiki                # remove after you have retagged it
+# 2. Install `ubuntu-foswiki`:
+#    * `pull` built image from the docker hub:
+#    # docker pull andreysmelter/ubuntu-foswiki
+#    # docker tag andreysmelter/ubuntu-foswiki:latest ubuntu-foswiki:latest  # retag docker image
+#    # docker rmi andreysmelter/ubuntu-foswiki                # remove after you have retagged it
 #
-#   * or `build` an image using `Dockerfile` at the root of this repo by running `docker build` from directory containing `Dockerfile`:
-#   # docker build -t ubuntu-foswiki .
+#    * or `build` an image using `Dockerfile` at the root of this repo by running `docker build` from directory containing `Dockerfile`:
+#    # docker build -t ubuntu-foswiki .
