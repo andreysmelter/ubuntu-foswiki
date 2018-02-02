@@ -42,7 +42,7 @@ This `Dockerfile` contains instructions on how to build an image with Foswiki 2.
 The image contains unconfigured Foswiki installation where you will need to save paths, 
 set `admin` password, register `user`, etc.
 
-[![Foswiki Main Page](docs/static/foswiki_main_page.png)](https://github.com/andreysmelter/ubuntu-foswiki/blob/master/docs/static/foswiki_main_page.png?raw=true)
+![Foswiki Main Page](https://raw.githubusercontent.com/andreysmelter/ubuntu-foswiki/master/docs/static/foswiki_main_page.png)
 
 
 ## Configure Foswiki
