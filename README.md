@@ -2,6 +2,7 @@
 
 [![Docker Automated build](https://img.shields.io/docker/automated/andreysmelter/ubuntu-foswiki.svg)](https://github.com/andreysmelter/ubuntu-foswiki)
 [![Docker Build Status](https://img.shields.io/docker/build/andreysmelter/ubuntu-foswiki.svg)](https://hub.docker.com/r/andreysmelter/ubuntu-foswiki)
+[![Docker Pulls Status](https://img.shields.io/docker/pulls/andreysmelter/ubuntu-foswiki.svg)](https://hub.docker.com/r/andreysmelter/ubuntu-foswiki)
 
 
 This `Dockerfile` contains instructions on how to build an image with Foswiki 2.1.5 based on Ubuntu 16.04 (LTS).
@@ -41,7 +42,7 @@ This `Dockerfile` contains instructions on how to build an image with Foswiki 2.
 The image contains unconfigured Foswiki installation where you will need to save paths, 
 set `admin` password, register `user`, etc.
 
-![Foswiki Main Page](docs/static/foswiki_main_page.png)
+[![Foswiki Main Page](docs/static/foswiki_main_page.png)](https://github.com/andreysmelter/ubuntu-foswiki/blob/master/docs/static/foswiki_main_page.png?raw=true)
 
 
 ## Configure Foswiki
