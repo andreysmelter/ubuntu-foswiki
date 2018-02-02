@@ -59,20 +59,20 @@ Slide show presentation for beginners:
 ### General Configuration
 
 1. Visit `configure` page (follow the link from the main page).
-   ![Foswiki Main Page](docs/static/foswiki_configure_page.png)
+   ![Foswiki Main Page](https://raw.githubusercontent.com/andreysmelter/ubuntu-foswiki/master/docs/static/foswiki_configure_page.png)
 
 2. Add `Internal Admin Password` under **Security and Authentication** -> **Passwords**.
-   ![Foswiki Main Page](docs/static/foswiki_internal_password_page.png)
+   ![Foswiki Main Page](https://raw.githubusercontent.com/andreysmelter/ubuntu-foswiki/master/docs/static/foswiki_internal_password_page.png)
 
 3. Add your `UserName` to `Access to Configure` (users who can access `configure` page) under **Security and Authentication** -> **Access Control**.
-   ![Foswiki Main Page](docs/static/foswiki_access_control_page.png)
+   ![Foswiki Main Page](https://raw.githubusercontent.com/andreysmelter/ubuntu-foswiki/master/docs/static/foswiki_access_control_page.png)
 
 4. Save `configure` page.
 5. Go to `http://localhost:4000/foswiki/System/UserRegistration` and register your `UserName`.
-   ![Foswiki Main Page](docs/static/foswiki_user_registration_page.png)
+   ![Foswiki Main Page](https://raw.githubusercontent.com/andreysmelter/ubuntu-foswiki/master/docs/static/foswiki_user_registration_page.png)
 
 6. Go to `http://localhost:4000/foswiki/Main/AdminGroup` and add your `UserName` to `AdminGroup`.
-   ![Foswiki Main Page](docs/static/foswiki_admin_group_page.png)
+   ![Foswiki Main Page](https://raw.githubusercontent.com/andreysmelter/ubuntu-foswiki/master/docs/static/foswiki_admin_group_page.png)
 
 
 ### Additional Configuration
@@ -82,11 +82,12 @@ Slide show presentation for beginners:
    1. Go to `http://localhost:4000/foswiki/Main/WebPreferences`.
    2. Under **Access control** find **Set ALLOWWEBVIEW =** and change it to **Set ALLOWWEBVIEW = AdminGroup**.
    3. Under **Access control** find **Set ALLOWWEBCHANGE =** and change it to **Set ALLOWWEBCHANGE = RegistrationAgent**.
-      ![Foswiki Main Page](docs/static/foswiki_web_preferences_page.png)
+      ![Foswiki Main Page](https://raw.githubusercontent.com/andreysmelter/ubuntu-foswiki/master/docs/static/foswiki_web_preferences_page.png)
 
 
 * To create new webs:
 
    1. Go to `http://localhost:4000/foswiki/System/ManagingWebs`.
    2. Create new `Web`.
-      ![Foswiki Main Page](docs/static/foswiki_managing_webs_page.png)
+      ![Foswiki Main Page](https://raw.githubusercontent.com/andreysmelter/ubuntu-foswiki/master/docs/static/foswiki_managing_webs_page.png)
+
