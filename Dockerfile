@@ -12,9 +12,9 @@ RUN apt-get install apache2 rcs -y
 RUN apt-get install libalgorithm-diff-perl libarchive-tar-perl libauthen-sasl-perl libcgi-pm-perl libcgi-session-perl libcrypt-passwdmd5-perl libdigest-sha-perl libemail-mime-perl libencode-perl liberror-perl libfile-copy-recursive-perl libhtml-parser-perl libhtml-tree-perl libio-socket-ip-perl libio-socket-ssl-perl libjson-perl liblocale-maketext-perl liblocale-maketext-lexicon-perl liblocale-msgfmt-perl libwww-perl liblwp-protocol-https-perl liburi-perl libversion-perl -y
 
 # Download and extract Foswiki
-RUN wget -O /var/www/Foswiki-2.1.5.tgz https://github.com/foswiki/distro/releases/download/FoswikiRelease02x01x05/Foswiki-2.1.5.tgz
-RUN tar -zxvf /var/www/Foswiki-2.1.5.tgz -C /var/www
-RUN mv /var/www/Foswiki-2.1.5 /var/www/foswiki
+RUN wget -O /var/www/Foswiki-2.1.6.tgz https://github.com/foswiki/distro/releases/download/FoswikiRelease02x01x06/Foswiki-2.1.6.tgz
+RUN tar -zxvf /var/www/Foswiki-2.1.6.tgz -C /var/www
+RUN mv /var/www/Foswiki-2.1.6 /var/www/foswiki
 
 # Configure Foswiki for apache server
 RUN chown -R www-data:www-data /var/www/foswiki
